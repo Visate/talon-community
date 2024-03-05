@@ -20,6 +20,7 @@ git add patch$: "git add --patch\n"
 git show head$: "git show HEAD\n"
 git diff$: "git diff\n"
 git diff (cached | cashed)$: "git diff --cached\n"
+git tree$: "git log --oneline --graph --all\n"
 
 # Convenience
 git clone clipboard:
